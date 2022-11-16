@@ -1,5 +1,7 @@
 //addition of two numbers
 
+// This program demonstrate Good way & Bad way of writing programs
+
 // create separate function for different operations
 // main function should contains function calls mostly
 
