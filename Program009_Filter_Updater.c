@@ -1,13 +1,14 @@
 
 // using filters & uodater for incorrect input
 
-#include<stdio.h>
-
 // Input : 3
 // Output : 1   2   3
 
 // Input : 7
 // Output : 1   2   3   4   5   6   7
+
+
+#include<stdio.h>
 
 void Display(int);         // Declaration
 
