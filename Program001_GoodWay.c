@@ -5,6 +5,11 @@
 // create separate function for different operations
 // main function should contains function calls mostly
 
+// writing all logic inside main function is bad practice of writing code
+// all variables should hava approprite names, first alphabet should be initial of datatype
+// like , for integer variable -> iNo , i Value
+// for float variable -> fNo , fValue
+
 #include<stdio.h>
 
 int Addition(int no1,  int no2)
