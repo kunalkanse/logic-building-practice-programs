@@ -2,7 +2,7 @@
 // perform Addition
 
 // Input : 3
-// Output : 3 + 2 + 1 = 6
+// Output : 3+2+1 = 6 or 1+2+3 = 6
 
 // Input : 5
 // Output : 15
