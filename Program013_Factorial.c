@@ -23,7 +23,7 @@ int main()
 
     iRet = Factorial(iValue);
 
-    printf("Factorial is : ",iRet);
+    printf("Factorial is : %d",iRet);
 
     return 0;
 }
