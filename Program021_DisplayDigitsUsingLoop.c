@@ -20,7 +20,7 @@ void Display(int iNo)
 {
     int iDigit = 0;
 
-    while(iNo != 0)
+    while(iNo != 0) // or (iNo > 0)
     {
         iDigit = iNo % 10;
         printf("%d",iDigit);
