@@ -12,7 +12,7 @@ int main()
     scanf("%d",&iValue);
 
     int iRet = Display(iValue);
-    printf("Sum of Digits is : %d",iRet);
+    printf("Count of Digits is : %d",iRet);
 
     return 0;
 }
