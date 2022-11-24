@@ -20,6 +20,12 @@ int main()
 int CountEven(int iNo)
 {
     int iDigit = 0, iCnt = 0;
+    
+    if(iNo == 0)
+    {   return 1;   }
+    
+    if(iNo < 0)
+    {   iNo = -iNo; }
 
     while(iNo != 0) // or (iNo > 0)
     {
