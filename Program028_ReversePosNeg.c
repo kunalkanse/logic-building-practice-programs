@@ -3,6 +3,11 @@
 // Reverse a number
 // works for positive and negative both numbers
 
+/*
+    (iNo > 0) works only for positive numbers
+    (iNo != 0) works for both +ve and -ve numbers
+*/
+
 int Reverse(int);
 
 int main()
