@@ -2,7 +2,9 @@
 #include<stdbool.h>
 
 // check whether number is perfect number or not
-// created seperate function for the sum of factors & to check perfect
+// created seperate function for the sum of factors & to check perfect//
+
+// updater & filters should be in every function cause we dont know who are going to reuse our function
 
 bool CheckPerfect(int);
 int SumFactors(int); 
@@ -57,6 +59,9 @@ bool CheckPerfect(int iNo)
 int SumFactors(int iNumber) 
 {
     int iSum = 0;
+    
+     if(iNo < 0)     // updater
+    {   iNo = -iNo; }
 
     for(int iCnt = 1; iCnt <= (iNumber/2); iCnt++)
     {
