@@ -21,7 +21,7 @@ int Reverse(int iNo)
 {
     int iDigit = 0 , iRev = 0;
 
-    while(iNo >= 0)
+    while(iNo > 0)
     {
         iDigit = iNo % 10;
         iRev = (iRev * 10) + iDigit;
