@@ -1,6 +1,8 @@
 #include<stdio.h>
 
 // passing Array to the function & return Addition of its elements
+// Array in internally considered as pointer
+//int Addition(int *Brr)
 
 int Addition(int Brr[])
 {
