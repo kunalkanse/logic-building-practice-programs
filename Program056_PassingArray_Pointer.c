@@ -11,8 +11,11 @@ int Addition(int *Brr)
 
     for(int iCnt = 0; iCnt < 5 ; iCnt++)
     {
+        //iSum = iSum + *(Brr+iCnt);
+
         iSum = iSum + (*Brr);
         Brr++;
+        
     }
 
     return iSum;
