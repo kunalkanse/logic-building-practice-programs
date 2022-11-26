@@ -17,6 +17,13 @@ void Display(int Row , int Col)
 {
     int iCnt = 0;
     int jCnt = 0;
+    
+    // To Print such pattern row & col should be same because we have to print '$' at diagonals
+    if(Row != Col)
+    {
+        printf("colomn & rows must be same");
+        return;
+    }
 
     for(iCnt = 1; iCnt <= Row ; iCnt++)
     {
