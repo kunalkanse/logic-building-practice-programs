@@ -4,7 +4,7 @@
 // Toggle letters
 // convert Capital letter to small & Small to cap
 
-char CapToSmall(char C)
+char Toggle(char C)
 {
     if((C >= 'A') && (C <= 'Z'))
     {
@@ -24,7 +24,7 @@ int main()
     printf("Enter the character : ");
     scanf("%c",&ch);
 
-    cRet = CapToSmall(ch);
+    cRet = Toggle(ch);
 
     printf("converted %c to %c",ch,cRet);
 
