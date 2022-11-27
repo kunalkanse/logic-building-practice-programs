@@ -4,7 +4,7 @@
 
 // check whether number is present in array or not
 
-bool Difference(int Brr[], int iSize)
+bool CheckNumber(int Brr[], int iSize)
 {
     bool bRet = false;
 
@@ -38,7 +38,7 @@ int main()
         scanf("%d",&Arr[iCnt]);
     }
      
-    bRet = Difference(Arr,iLength);
+    bRet = CheckNumber(Arr,iLength);
 
     if(bRet == true)
     {
