@@ -4,10 +4,8 @@
 
 // check whether number is present in array or not
 
-bool Difference(int Brr[], int iSize)
+bool CheckNumber(int Brr[], int iSize)
 {
-    int iMin = Brr[0];
-    int iMax = Brr[0];
 
     for(int iCnt = 1; iCnt < iSize; iCnt++)
     {
@@ -42,7 +40,7 @@ int main()
         scanf("%d",&Arr[iCnt]);
     }
      
-    bRet = Difference(Arr,iLength);
+    bRet = CheckNumber(Arr,iLength);
 
     if(bRet == true)
     {
