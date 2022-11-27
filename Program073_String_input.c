@@ -1,5 +1,8 @@
 #include<stdio.h>
 
+// in this program name will store data only till space
+
+
 int main()
 {
     char name[20];
