@@ -6,12 +6,12 @@ typedef unsigned int UINT;
 // check whether user input bit of number is ON or OFF
 // shift operator
 
-bool CheckOnOFF(int,int);
+bool CheckOnOFF(UINT,UINT);
 
 int main()
 {
     UINT iValue = 0; 
-    int iPos = 0;
+    UINT iPos = 0;
     bool bRet = false;
 
     printf("Enter the number : ");
