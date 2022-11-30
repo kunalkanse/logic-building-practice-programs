@@ -14,6 +14,7 @@ class Armstrong
             iNo = -iNo;
         }
 
+        //counting Digits
         while(iTemp != 0)
         {
             iDigCnt++;
@@ -28,9 +29,10 @@ class Armstrong
 
             for(iCnt = 1; iCnt <= iDigCnt ; iCnt++)
             {
+                // calculate power
                 iPower = iPower * iDigit;
             }
-
+            
             iSum = iSum + iPower;
             iPower = 1;
             iTemp = iTemp / 10;
