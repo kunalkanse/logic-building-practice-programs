@@ -1,0 +1,15 @@
+
+
+This folder should hava contains .class file of th program ArrayX.java
+cause i have created this folder as package for the 
+Program119_Convrted118_To_package.java
+
+imported arrayXPackage.Arrayx in this java file
+
+to create the package for Arrax.java we have to write command as 
+
+=> javac ArrayX.java -d .
+
+while -d means directory & . represent current directory
+
+that means create folder in current folder 
