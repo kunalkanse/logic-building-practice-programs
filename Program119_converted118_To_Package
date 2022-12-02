@@ -1,0 +1,53 @@
+
+// importing packages 
+
+import java.util.*;
+import arrayXPackage.ArrayX;
+
+//ArrayX.class is in arrayXPackage (package) folder
+
+// This is industry level program for Sum of Array Elements
+
+// inheritance , reusability
+class ArraySumX extends ArrayX
+{
+    public ArraySumX(int iSize)
+    {
+        super(iSize);
+    }
+
+    public int ArrayAdd()
+    {
+        int iSum = 0,iCnt = 0;
+
+        for(iCnt = 0; iCnt<Arr.length; iCnt++)
+        {
+            iSum = iSum + Arr[iCnt];
+        }
+
+        return iSum;
+    }
+}
+
+class Program146_145_Package
+{
+    public static void main(String arg[])
+    {
+        Scanner Sobj = new Scanner(System.in);
+        int iLength = 0,iRet = 0;
+
+        System.out.println("Enter the Array size : ");
+        iLength = Sobj.nextInt();
+
+        ArraySumX ASobj = new ArraySumX(iLength);
+
+        ASobj.Accept();
+        ASobj.Display();
+
+        iRet = ASobj.ArrayAdd();
+
+        System.out.println("Sum of Array Elements : "+iRet);
+
+    }
+}
+
