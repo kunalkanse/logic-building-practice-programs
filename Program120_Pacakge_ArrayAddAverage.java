@@ -37,7 +37,7 @@ class ArrayAddAverageX extends ArrayX
     }
 }
 
-class Program147_Pacakge_ArrayAddAverage
+class Program120_Pacakge_ArrayAddAverage
 {
     public static void main(String arg[])
     {
