@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Program143_Array_input
+class Program116_Array_input
 {
     public static void main(String[] args) 
     {
