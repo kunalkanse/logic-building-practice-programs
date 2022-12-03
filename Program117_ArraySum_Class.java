@@ -16,7 +16,7 @@ class ArraySum
     }
 }
 
-class Program144_Array_Sum
+class Program117_Array_Sum
 {
     public static void main(String[] args) 
     {
