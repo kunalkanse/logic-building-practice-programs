@@ -60,7 +60,7 @@ class ArraySumX extends ArrayX
     }
 }
 
-class Program145_ArraySum_industryLevel
+class Program118_ArraySum_industryLevel
 {
     public static void main(String arg[])
     {
