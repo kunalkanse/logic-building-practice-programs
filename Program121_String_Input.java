@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 // String input
 
-class Program148_String_input 
+class Program121_String_input 
 {
     public static void main(String args[])
     {
