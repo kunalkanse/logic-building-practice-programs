@@ -29,7 +29,7 @@ class ArraySumX extends ArrayX
     }
 }
 
-class Program146_145_Package
+class Program119_118_Package
 {
     public static void main(String arg[])
     {
