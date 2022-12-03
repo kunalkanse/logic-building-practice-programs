@@ -1,0 +1,22 @@
+This folder should hava contains .class file of the program Stringx.java
+cause i have created this folder as package for the 
+
+Program123_String_SetterGetter_package.java
+
+imported stringXPackage.Strinx in this java file
+
+to create the package for stringX.java we have to write command as 
+
+=> javac StringX.java -d .
+
+while -d means directory & . represent current directory
+
+that means create folder in current folder 
+
+
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Secu
