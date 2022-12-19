@@ -21,6 +21,9 @@ void insertLast(PPNODE , int);
 void deletefirst(PPNODE);
 void deleteLast(PPNODE);
 
+void deleteAtPos(PPNODE, int);
+void insertAtPos(PPNODE , int, int);
+
 void Display(PNODE);
 int Count(PNODE);
 
