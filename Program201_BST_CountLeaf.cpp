@@ -1,6 +1,5 @@
 
-// Program demonatrate insertion in BST & Count the elements
-// withot FLAG
+// Program demonatrate insertion in BST & Count Leaf Nodes
 
 // CountLeaf()
 
