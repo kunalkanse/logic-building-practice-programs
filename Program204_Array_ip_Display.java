@@ -3,7 +3,7 @@
 
 import java.util.*;
 
-class Program251_Array_ip_Display
+class Program204_Array_ip_Display
 {
     public static void main(String[] args) 
     {
