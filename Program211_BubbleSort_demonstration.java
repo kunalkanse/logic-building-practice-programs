@@ -1,5 +1,5 @@
  
-// Bubble Sort 
+// Bubble Sort  
 // demonstrate change in array after each iteration
 
 import java.util.*;
