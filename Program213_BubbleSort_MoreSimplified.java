@@ -10,7 +10,7 @@ import java.util.*;
 class Sorting
 {
 
-    public void BubbleSort(int Arr[])
+    public void BubbleSort(int Arr[]) 
     {
         int i = 0,j = 0,pass = 0;
         int temp = 0;   // for swapping
