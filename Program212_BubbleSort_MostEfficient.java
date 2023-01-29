@@ -76,7 +76,7 @@ public class Program212_BubbleSort_MostEfficient
         System.out.println();
         System.out.print("Data After Sorting : ");
         for(int i = 0; i <Arr.length ; i++)
-        {
+        { 
             System.out.print(Arr[i] + " ");
         }
     } 
