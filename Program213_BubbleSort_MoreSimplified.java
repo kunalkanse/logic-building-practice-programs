@@ -39,7 +39,7 @@ class Sorting
 
             System.out.print("Data after pass " + (pass+1) + " : ");
             for(i = 0; i < Arr.length; i++)
-            {
+            { 
                 System.out.print(Arr[i] + " ");
             }
             System.out.println();
