@@ -5,7 +5,7 @@
 // this code reduces time complexity of program
 // more simplified
 
-import java.util.*;
+import java.util.*; 
 
 class Sorting
 {
