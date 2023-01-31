@@ -27,7 +27,7 @@ int main()
     printf("Enter second number\n");
     scanf("%d",&iValue2);
 
-    z = Addition(iValue1,iValue2);
+    iRet = Addition(iValue1,iValue2);
 
     printf("Addition is : %d\n",iRet);
     return 0;
