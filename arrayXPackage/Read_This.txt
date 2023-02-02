@@ -2,7 +2,7 @@
 
 This folder should hava contains .class file of the program ArrayX.java
 cause i have created this folder as package for the 
-Program119_Converted118_To_package.java
+Program119_Converted118_To_package.java 
 
 imported arrayXPackage.Arrayx in this java file
 
