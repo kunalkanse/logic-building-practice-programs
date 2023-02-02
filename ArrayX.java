@@ -4,7 +4,7 @@
 package arrayXPackage;
 
 import java.util.*;
-
+ 
 // this ArrayX Class Provide some common functionalities to the child class
 public class ArrayX
 {
