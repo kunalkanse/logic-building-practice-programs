@@ -3,7 +3,7 @@ package grooming;
 public class Program254_MoveAll_ZeroesToEnd {
 
     private static int zeroCount = 0;
-
+ 
     public static void main(String[] args) {
         int[] arr = {8,10,0,11,0,0,12,15,0,10};
 
